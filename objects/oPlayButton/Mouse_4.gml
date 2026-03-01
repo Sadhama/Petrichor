@@ -1,1 +1,1 @@
-room_goto(rm_intro_video);
+room_goto(rm_level_1);
