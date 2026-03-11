@@ -2,6 +2,7 @@ global.player = undefined;
 global.hp = 50;
 global.max_hp = 50
 global.timerOver = false;
+global.gold = 0;
 
 global.room = 1;
 

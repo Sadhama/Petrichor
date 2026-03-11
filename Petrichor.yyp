@@ -107,6 +107,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"selection","path":"rooms/selection/selection.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
+    {"id":{"name":"coinfx","path":"sounds/coinfx/coinfx.yy",},},
     {"id":{"name":"game","path":"sounds/game/game.yy",},},
     {"id":{"name":"border","path":"sprites/border/border.yy",},},
     {"id":{"name":"Bullet","path":"sprites/Bullet/Bullet.yy",},},
