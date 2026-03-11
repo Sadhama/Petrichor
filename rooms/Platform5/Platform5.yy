@@ -642,6 +642,8 @@
     {"name":"inst_65BA05F4_4","path":"rooms/Platform5/Platform5.yy",},
     {"name":"inst_3069D3BC4","path":"rooms/Platform5/Platform5.yy",},
     {"name":"inst_4FBEAB5B4","path":"rooms/Platform5/Platform5.yy",},
+    {"name":"inst_5C99417_4","path":"rooms/Platform5/Platform5.yy",},
+    {"name":"inst_73292109_4","path":"rooms/Platform5/Platform5.yy",},
     {"name":"inst_3ABB8CD5_4","path":"rooms/Platform5/Platform5.yy",},
     {"name":"inst_AE347C0","path":"rooms/Platform5/Platform5.yy",},
     {"name":"inst_5C99417_4","path":"rooms/Platform5/Platform5.yy",},

@@ -37,8 +37,13 @@ if(place_meeting(x, y, oPortal1)){
 	// level 2
 			room_goto(Platform5);
 }
+
 if(place_meeting(x, y, oPortal2)){
 	room_goto(rm_level_3);
+}
+
+if(place_meeting(x, y, oPortal3)){
+	room_goto(rm_level_4);
 }
 
 //  ground lava

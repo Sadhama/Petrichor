@@ -643,7 +643,6 @@
     {"name":"inst_3069D3BC2","path":"rooms/Platform3/Platform3.yy",},
     {"name":"inst_4FBEAB5B2","path":"rooms/Platform3/Platform3.yy",},
     {"name":"inst_5C99417_2","path":"rooms/Platform3/Platform3.yy",},
-    {"name":"inst_1FA2F18A2","path":"rooms/Platform3/Platform3.yy",},
     {"name":"inst_73292109_2","path":"rooms/Platform3/Platform3.yy",},
     {"name":"inst_3ABB8CD5_2","path":"rooms/Platform3/Platform3.yy",},
     {"name":"inst_2D167BC","path":"rooms/Platform3/Platform3.yy",},

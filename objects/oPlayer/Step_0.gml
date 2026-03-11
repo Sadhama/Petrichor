@@ -4,7 +4,6 @@ key_jump = keyboard_check_pressed(vk_space);
 
 var move = key_right - key_left;
 
-
 hsp = move * walksp;
 vsp += grav;
 
@@ -43,7 +42,7 @@ if(place_meeting(x, y, oPortal2)){
 	room_goto(choose(Platform1, Platform2, Platform3, Platform4));
 }
 
-//  ground lava
+// lava
 if (place_meeting(x, y+vsp, oLava)) {
 	while (!place_meeting(x, y+sign(vsp), oLava)) {
 		y += sign(vsp);
@@ -51,9 +50,6 @@ if (place_meeting(x, y+vsp, oLava)) {
 	game_restart()
 
 }
-
-
-
 
 if (place_meeting(x, y+3, oPlatform) && key_jump) {
 	vsp = -10;
@@ -82,9 +78,6 @@ if (place_meeting(x, y+vsp, oPlatform)) {
 
 }
 y += vsp;
-
-
-
 
 //Animation
 
