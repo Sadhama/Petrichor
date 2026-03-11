@@ -58,7 +58,7 @@ if (place_meeting(x, y+3, oPlatform) && key_jump) {
 }
 //Damage
 if (lava_damage) {
-	hp = max(0, hp - 5);
+	global.hp = max(0, global.hp - 5);
 	lava_damage = false;
 }
 

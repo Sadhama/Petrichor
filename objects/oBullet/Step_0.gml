@@ -21,7 +21,7 @@ if(place_meeting(x, y, oBorder) || place_meeting(x, y, oPlatform)) {
 
 if (place_meeting(x, y, global.player)) {
 	
-		global.player.hp--;
+		global.hp--;
 		//flash = 3;
 		if (oBullet.speed > 0) {
 			var b = instance_create_layer(startx, starty, "Turrets", oBullet);
@@ -38,8 +38,8 @@ if (place_meeting(x, y, global.player)) {
 		//b.direction = 0;
 		//b.speed = 8;
 		//instance_destroy(self);
-		if (global.player.hp <= 0) {
-			room_restart();
+		if (global.hp <= 0) {
+			game_restart();
 		}
 
 		

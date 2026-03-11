@@ -16,8 +16,6 @@ crystal_damage = false;
 //health
 bar_width = 100; // Define the maximum width of your health bar
 bar_height = 10;
-max_hp = 50;
-hp = 50;
 
 gold = 0;
 damage = 0;

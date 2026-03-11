@@ -121,9 +121,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_intro_photo","path":"rooms/rm_intro_photo/rm_intro_photo.yy",},},
     {"roomId":{"name":"rm_intro_video","path":"rooms/rm_intro_video/rm_intro_video.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Platform1","path":"rooms/Platform1/Platform1.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
