@@ -4,7 +4,6 @@ key_jump = keyboard_check_pressed(vk_space);
 
 var move = key_right - key_left;
 
-
 hsp = move * walksp;
 vsp += grav;
 
@@ -34,14 +33,13 @@ if(x>= 990){
 	 x=990;
 }
 if(place_meeting(x, y, oPortal1)){
-	// level 2
-			room_goto(choose(Platform1, Platform2, Platform3, Platform4));
+			room_goto(rm_level_2);
 }
 if(place_meeting(x, y, oPortal2)){
 	room_goto(rm_level_3);
 }
 
-//  ground lava
+// lava
 if (place_meeting(x, y+vsp, oLava)) {
 	while (!place_meeting(x, y+sign(vsp), oLava)) {
 		y += sign(vsp);
@@ -50,17 +48,10 @@ if (place_meeting(x, y+vsp, oLava)) {
 
 }
 
-
-
-
 if (place_meeting(x, y+3, oPlatform) && key_jump) {
 	vsp = -10;
 }
-//Damage
-if (lava_damage) {
-	hp = max(0, hp - 5);
-	lava_damage = false;
-}
+
 
 // horizontal collision
 if (place_meeting(x+hsp, y, oPlatform)) {
@@ -80,9 +71,6 @@ if (place_meeting(x, y+vsp, oPlatform)) {
 
 }
 y += vsp;
-
-
-
 
 //Animation
 
