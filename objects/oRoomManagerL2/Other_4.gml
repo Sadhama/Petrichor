@@ -1,4 +1,5 @@
-if (global.room >= 2) {
+if (global.room == 2) {
+	global.gold -= coins_collected;
 	var _player_instance = instance_create_layer(50, 48, "Characters", global.player);
 
 	function get_all_instances_on_layer(layer_name) {
@@ -48,6 +49,19 @@ if (global.room >= 2) {
 		var bullet_2 = instance_create_layer(turret_2.x+50, turret_2.y, "Turrets", oBullet);
 	}
 
+	var _player_instance = instance_create_layer(50, 48, "Characters", global.player);
+	var _platform_instances = get_all_instances_on_layer("Platform");
+	var shuffled_array = array_shuffle(_platform_instances);
 	
+	var coin_instance_1 = shuffled_array[0];
+	var coin_instance_2 = shuffled_array[1];
+	var coin_instance_3 = shuffled_array[2];
+	var coin_instance_4 = shuffled_array[3];
+	var coin_instance_5 = shuffled_array[4];
+	
+	for (var i = 0; i < 8; i++) {
+		instance_create_layer(shuffled_array[i].x, shuffled_array[i].y - 16, "Spawns", oCoin);
+	}
 }
+
 

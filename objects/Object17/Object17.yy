@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite16",
-    "path":"sprites/Sprite16/Sprite16.yy",
+    "name":"won",
+    "path":"sprites/won/won.yy",
   },
   "spriteMaskId":null,
   "visible":true,

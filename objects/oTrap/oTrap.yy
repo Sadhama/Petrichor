@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"oTrap",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oTrap",
   "overriddenProperties":[],

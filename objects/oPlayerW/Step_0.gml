@@ -42,11 +42,12 @@ if(place_meeting(x, y, oPortal1)){
 
 if(place_meeting(x, y, oPortal2)){
 	global.room++;
-	room_goto(choose(Platform9, Platform10));
+	room_goto(choose(Platform9, Platform12));
 }
 
 if(place_meeting(x, y, oPortal3)){
-	room_goto(Platform11);
+	global.room++;
+	room_goto(Platform12);
 }
 
 //  ground lava

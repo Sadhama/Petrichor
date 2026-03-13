@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"lava",
-    "path":"sprites/lava/lava.yy",
+    "name":"bomb",
+    "path":"sprites/bomb/bomb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

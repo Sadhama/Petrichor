@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"sPlayerW",
   "bboxMode":0,
-  "bbox_bottom":81,
+  "bbox_bottom":71,
   "bbox_left":0,
   "bbox_right":47,
   "bbox_top":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":82,
+  "height":72,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a46129bb-43d5-446d-be46-1e250bf288bd","blendMode":0,"displayName":"default","isLocked":false,"name":"a46129bb-43d5-446d-be46-1e250bf288bd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

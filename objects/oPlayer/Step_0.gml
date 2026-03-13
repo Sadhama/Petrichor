@@ -41,7 +41,10 @@ if(place_meeting(x, y, oPortal2)){
 	global.room++;
 	room_goto(choose(Platform1, Platform2, Platform3, Platform4));
 }
-
+if(place_meeting(x, y, oPortal3)){
+	global.room++;
+	room_goto(Platform12);
+}
 // lava
 if (place_meeting(x, y+vsp, oLava)) {
 	while (!place_meeting(x, y+sign(vsp), oLava)) {
